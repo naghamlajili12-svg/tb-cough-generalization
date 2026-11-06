@@ -1,0 +1,81 @@
+barcode,device,folder,file,rel_path,sr,ch,dur,facility_code,label,fold
+01-399-0826,Audio-Recorder,Audio-Recorder-Kanyama,01-399-0826.WAV,Audio-Recorder-Kanyama/01-399-0826.WAV,44100.0,2.0,49.44689342403628,Kan,0,0.0
+01-399-0826,Phone A,Kanyama Phone A,01-399-0826.wav,Kanyama Phone A/01-399-0826.wav,192000.0,2.0,48.08,Kan,0,0.0
+01-399-0826,Phone B,Kanyama Phone B,01-399-0826.wav,Kanyama Phone B/01-399-0826.wav,192000.0,2.0,45.88,Kan,0,0.0
+01-399-0826,Phone C,Kanyama Phone C,01-399-0826.wav,Kanyama Phone C/Kanyama Phone C/01-399-0826.wav,192000.0,2.0,47.88,Kan,0,0.0
+01-399-0827,Audio-Recorder,Audio-Recorder-Kanyama,01-399-0827.WAV,Audio-Recorder-Kanyama/01-399-0827.WAV,44100.0,2.0,50.037551020408166,Kan,0,4.0
+01-399-0827,Phone A,Kanyama Phone A,01-399-0827.wav,Kanyama Phone A/01-399-0827.wav,192000.0,2.0,49.32,Kan,0,4.0
+01-399-0827,Phone B,Kanyama Phone B,01-399-0827.wav,Kanyama Phone B/01-399-0827.wav,192000.0,2.0,48.92,Kan,0,4.0
+01-399-0827,Phone C,Kanyama Phone C,01-399-0827.wav,Kanyama Phone C/Kanyama Phone C/01-399-0827.wav,192000.0,2.0,49.2,Kan,0,4.0
+01-399-0837,Audio-Recorder,Audio-Recorder-Kanyama,01-399-0837.WAV,Audio-Recorder-Kanyama/01-399-0837.WAV,44100.0,2.0,38.1837641723356,Kan,0,0.0
+01-399-0837,Phone A,Kanyama Phone A,01-399-0837.wav,Kanyama Phone A/01-399-0837.wav,192000.0,2.0,43.08,Kan,0,0.0
+01-399-0837,Phone B,Kanyama Phone B,01-399-0837.wav,Kanyama Phone B/01-399-0837.wav,192000.0,2.0,43.04,Kan,0,0.0
+01-399-0837,Phone C,Kanyama Phone C,01-399-0837.wav,Kanyama Phone C/Kanyama Phone C/01-399-0837.wav,192000.0,2.0,43.2,Kan,0,0.0
+01-399-0852,Audio-Recorder,Audio-Recorder-Kanyama,01-399-0852.WAV,Audio-Recorder-Kanyama/01-399-0852.WAV,44100.0,2.0,41.48825396825397,Kan,1,2.0
+01-399-0852,Phone A,Kanyama Phone A,01-399-0852.wav,Kanyama Phone A/01-399-0852.wav,192000.0,2.0,40.72,Kan,1,2.0
+01-399-0852,Phone B,Kanyama Phone B,01-399-0852.wav,Kanyama Phone B/01-399-0852.wav,192000.0,2.0,40.84,Kan,1,2.0
+01-399-0852,Phone C,Kanyama Phone C,01-399-0852.wav,Kanyama Phone C/Kanyama Phone C/01-399-0852.wav,192000.0,2.0,40.56,Kan,1,2.0
+01-399-0917,Audio-Recorder,Audio-Recorder-Kanyama,01-399-0917.WAV,Audio-Recorder-Kanyama/01-399-0917.WAV,44100.0,2.0,42.31401360544218,Kan,0,3.0
+01-399-0917,Phone A,Kanyama Phone A,01-399-0917.wav,Kanyama Phone A/01-399-0917.wav,192000.0,2.0,41.6,Kan,0,3.0
+01-399-0917,Phone B,Kanyama Phone B,01-399-0917.wav,Kanyama Phone B/01-399-0917.wav,192000.0,2.0,41.96,Kan,0,3.0
+01-399-0917,Phone C,Kanyama Phone C,01-399-0917.wav,Kanyama Phone C/Kanyama Phone C/01-399-0917.wav,192000.0,2.0,42.16,Kan,0,3.0
+01-399-0918,Audio-Recorder,Audio-Recorder-Kanyama,01-399-0918.WAV,Audio-Recorder-Kanyama/01-399-0918.WAV,44100.0,2.0,40.37224489795919,Kan,0,2.0
+01-399-0918,Phone A,Kanyama Phone A,01-399-0918.wav,Kanyama Phone A/01-399-0918.wav,192000.0,2.0,54.68,Kan,0,2.0
+01-399-0918,Phone B,Kanyama Phone B,01-399-0918.wav,Kanyama Phone B/01-399-0918.wav,192000.0,2.0,54.4,Kan,0,2.0
+01-399-0918,Phone C,Kanyama Phone C,01-399-0918.wav,Kanyama Phone C/Kanyama Phone C/01-399-0918.wav,192000.0,2.0,54.24,Kan,0,2.0
+01-399-0928,Audio-Recorder,Audio-Recorder-Kanyama,01-399-0928.WAV,Audio-Recorder-Kanyama/01-399-0928.WAV,44100.0,2.0,41.61741496598639,Kan,0,4.0
+01-399-0928,Phone A,Kanyama Phone A,01-399-0928.wav,Kanyama Phone A/01-399-0928.wav,192000.0,2.0,41.4,Kan,0,4.0
+01-399-0928,Phone B,Kanyama Phone B,01-399-0928.wav,Kanyama Phone B/01-399-0928.wav,192000.0,2.0,41.2,Kan,0,4.0
+01-399-0928,Phone C,Kanyama Phone C,01-399-0928.wav,Kanyama Phone C/Kanyama Phone C/01-399-0928.wav,192000.0,2.0,41.44,Kan,0,4.0
+02-399-0697,Audio-Recorder,Audio-Recorder-Kanyama,02-399-0697.WAV,Audio-Recorder-Kanyama/02-399-0697.WAV,44100.0,2.0,61.33115646258504,Cha,1,3.0
+02-399-0697,Phone A,Kanyama Phone A,02-399-0697.wav,Kanyama Phone A/02-399-0697.wav,192000.0,2.0,60.52,Cha,1,3.0
+02-399-0697,Phone B,Kanyama Phone B,02-399-0697.wav,Kanyama Phone B/02-399-0697.wav,192000.0,2.0,62.0,Cha,1,3.0
+02-399-0697,Phone C,Kanyama Phone C,02-399-0697.wav,Kanyama Phone C/Kanyama Phone C/02-399-0697.wav,192000.0,2.0,60.36,Cha,1,3.0
+02-399-0732,Audio-Recorder,Audio-Recorder-Chawama,02-399-0732.WAV,Audio-Recorder-Chawama/02-399-0732.WAV,44100.0,2.0,49.75600907029479,Cha,0,2.0
+02-399-0732,Phone A,Chawama Phone A,02-399-0732.wav,Chawama Phone A/Chawama Phone A/02-399-0732.wav,192000.0,2.0,45.72,Cha,0,2.0
+02-399-0732,Phone B,Chawama Phone B,02-399-0732.wav,Chawama Phone B/Chawama Phone B/02-399-0732.wav,192000.0,2.0,46.56,Cha,0,2.0
+02-399-0732,Phone C,Chawama Phone C,02-399-0732.wav,Chawama Phone C/Chawama Phone C/02-399-0732.wav,192000.0,2.0,47.44,Cha,0,2.0
+02-399-0748,Audio-Recorder,Audio-Recorder-Chawama,02-399-0748.WAV,Audio-Recorder-Chawama/02-399-0748.WAV,44100.0,2.0,56.53043083900226,Cha,0,2.0
+02-399-0748,Phone A,Chawama Phone A,02-399-0748.wav,Chawama Phone A/Chawama Phone A/02-399-0748.wav,192000.0,2.0,48.6,Cha,0,2.0
+02-399-0748,Phone B,Chawama Phone B,02-399-0748.wav,Chawama Phone B/Chawama Phone B/02-399-0748.wav,192000.0,2.0,50.2,Cha,0,2.0
+02-399-0748,Phone C,Chawama Phone C,02-399-0748.wav,Chawama Phone C/Chawama Phone C/02-399-0748.wav,192000.0,2.0,52.24,Cha,0,2.0
+02-399-0760,Audio-Recorder,Audio-Recorder-Chawama,02-399-0760.WAV,Audio-Recorder-Chawama/02-399-0760.WAV,44100.0,2.0,52.49596371882086,Cha,0,1.0
+02-399-0760,Phone A,Chawama Phone A,2-399-0760.wav,Chawama Phone A/Chawama Phone A/2-399-0760.wav,192000.0,2.0,42.44,Cha,0,1.0
+02-399-0760,Phone B,Chawama Phone B,02-399-0760.wav,Chawama Phone B/Chawama Phone B/02-399-0760.wav,192000.0,2.0,42.0,Cha,0,1.0
+02-399-0760,Phone C,Chawama Phone C,02-399-0760.wav,Chawama Phone C/Chawama Phone C/02-399-0760.wav,192000.0,2.0,42.16,Cha,0,1.0
+02-399-0762,Audio-Recorder,Audio-Recorder-Chawama,02-399-0762.WAV,Audio-Recorder-Chawama/02-399-0762.WAV,44100.0,2.0,50.80961451247165,Cha,0,3.0
+02-399-0762,Phone A,Chawama Phone A,02-399-0762.wav,Chawama Phone A/Chawama Phone A/02-399-0762.wav,192000.0,2.0,42.4,Cha,0,3.0
+02-399-0762,Phone B,Chawama Phone B,02-399-0762.wav,Chawama Phone B/Chawama Phone B/02-399-0762.wav,192000.0,2.0,44.12,Cha,0,3.0
+02-399-0762,Phone C,Chawama Phone C,02-399-0762.wav,Chawama Phone C/Chawama Phone C/02-399-0762.wav,192000.0,2.0,46.48,Cha,0,3.0
+02-399-0767,Audio-Recorder,Audio-Recorder-Chawama,02-399-0767.WAV,Audio-Recorder-Chawama/02-399-0767.WAV,44100.0,2.0,56.121179138322,Cha,0,3.0
+02-399-0767,Phone A,Chawama Phone A,02-399-0767.wav,Chawama Phone A/Chawama Phone A/02-399-0767.wav,192000.0,2.0,52.76,Cha,0,3.0
+02-399-0767,Phone B,Chawama Phone B,02-399-0767.wav,Chawama Phone B/Chawama Phone B/02-399-0767.wav,192000.0,2.0,55.0,Cha,0,3.0
+02-399-0767,Phone C,Chawama Phone C,02-399-0767.wav,Chawama Phone C/Chawama Phone C/02-399-0767.wav,192000.0,2.0,55.36,Cha,0,3.0
+02-399-0776,Audio-Recorder,Audio-Recorder-Chawama,02-399-0776.WAV,Audio-Recorder-Chawama/02-399-0776.WAV,44100.0,2.0,44.97995464852608,Cha,1,3.0
+02-399-0776,Phone A,Chawama Phone A,02-399-0776.wav,Chawama Phone A/Chawama Phone A/02-399-0776.wav,192000.0,2.0,44.76,Cha,1,3.0
+02-399-0776,Phone B,Chawama Phone B,02-399-0776.wav,Chawama Phone B/Chawama Phone B/02-399-0776.wav,192000.0,2.0,44.76,Cha,1,3.0
+02-399-0776,Phone C,Chawama Phone C,02-399-0776.wav,Chawama Phone C/Chawama Phone C/02-399-0776.wav,192000.0,2.0,45.0,Cha,1,3.0
+02-399-0785,Audio-Recorder,Audio-Recorder-Chawama,02-399-0785.WAV,Audio-Recorder-Chawama/02-399-0785.WAV,44100.0,2.0,39.150294784580495,Cha,0,4.0
+02-399-0785,Phone A,Chawama Phone A,02-399-0785.wav,Chawama Phone A/Chawama Phone A/02-399-0785.wav,192000.0,2.0,38.84,Cha,0,4.0
+02-399-0785,Phone B,Chawama Phone B,02-399-0785.wav,Chawama Phone B/Chawama Phone B/02-399-0785.wav,192000.0,2.0,38.68,Cha,0,4.0
+02-399-0785,Phone C,Chawama Phone C,02-399-0785.wav,Chawama Phone C/Chawama Phone C/02-399-0785.wav,192000.0,2.0,38.88,Cha,0,4.0
+03-399-0301,Audio-Recorder,Audio-Recorder-Chainda-South,03-399-0301.WAV,Audio-Recorder-Chainda-South/03-399-0301.WAV,44100.0,2.0,53.365260770975055,Chai,0,1.0
+03-399-0301,Phone A,Chainda South Phone A,03-399-0301.wav,Chainda South Phone A/Chainda South Phone A/03-399-0301.wav,192000.0,2.0,46.44,Chai,0,1.0
+03-399-0301,Phone B,Chainda South Phone B,03-399-0301.wav,Chainda South Phone B/Chainda South Phone B/03-399-0301.wav,192000.0,2.0,44.0,Chai,0,1.0
+03-399-0301,Phone C,Chainda South Phone C,03-399-0301.wav,Chainda South Phone C/Chainda South Phone C/03-399-0301.wav,192000.0,2.0,48.88,Chai,0,1.0
+03-399-0319,Audio-Recorder,Audio-Recorder-Chainda-South,03-399-0319.WAV,Audio-Recorder-Chainda-South/03-399-0319.WAV,44100.0,2.0,48.25687074829932,Chai,0,3.0
+03-399-0319,Phone A,Chainda South Phone A,03-399-0319.wav,Chainda South Phone A/Chainda South Phone A/03-399-0319.wav,192000.0,2.0,45.68,Chai,0,3.0
+03-399-0319,Phone B,Chainda South Phone B,03-399-0319.wav,Chainda South Phone B/Chainda South Phone B/03-399-0319.wav,192000.0,2.0,45.76,Chai,0,3.0
+03-399-0319,Phone C,Chainda South Phone C,03-399-0319.wav,Chainda South Phone C/Chainda South Phone C/03-399-0319.wav,192000.0,2.0,47.72,Chai,0,3.0
+03-399-0320,Audio-Recorder,Audio-Recorder-Chainda-South,03-399-0320.WAV,Audio-Recorder-Chainda-South/03-399-0320.WAV,44100.0,2.0,39.0487074829932,Chai,0,1.0
+03-399-0320,Phone A,Chainda South Phone A,03-399-0320.wav,Chainda South Phone A/Chainda South Phone A/03-399-0320.wav,192000.0,2.0,38.68,Chai,0,1.0
+03-399-0320,Phone B,Chainda South Phone B,03-399-0320.wav,Chainda South Phone B/Chainda South Phone B/03-399-0320.wav,192000.0,2.0,38.6,Chai,0,1.0
+03-399-0320,Phone C,Chainda South Phone C,03-399-0320.wav,Chainda South Phone C/Chainda South Phone C/03-399-0320.wav,192000.0,2.0,38.84,Chai,0,1.0
+03-399-0328,Audio-Recorder,Audio-Recorder-Chainda-South,03-399-0328.WAV,Audio-Recorder-Chainda-South/03-399-0328.WAV,44100.0,2.0,34.02448979591837,Chai,0,0.0
+03-399-0328,Phone A,Chainda South Phone A,03-399-0328.wav,Chainda South Phone A/Chainda South Phone A/03-399-0328.wav,192000.0,2.0,31.92,Chai,0,0.0
+03-399-0328,Phone B,Chainda South Phone B,03-399-0328.wav,Chainda South Phone B/Chainda South Phone B/03-399-0328.wav,192000.0,2.0,33.2,Chai,0,0.0
+03-399-0328,Phone C,Chainda South Phone C,03-399-0328.wav,Chainda South Phone C/Chainda South Phone C/03-399-0328.wav,192000.0,2.0,31.84,Chai,0,0.0
+03-399-0330,Audio-Recorder,Audio-Recorder-Chainda-South,03-399-0330.WAV,Audio-Recorder-Chainda-South/03-399-0330.WAV,44100.0,2.0,42.32562358276644,Chai,0,0.0
+03-399-0330,Phone A,Chainda South Phone A,03-399-0330.wav,Chainda South Phone A/Chainda South Phone A/03-399-0330.wav,192000.0,2.0,36.44,Chai,0,0.0
+03-399-0330,Phone B,Chainda South Phone B,03-399-0330.wav,Chainda South Phone B/Chainda South Phone B/03-399-0330.wav,192000.0,2.0,37.72,Chai,0,0.0
+03-399-0330,Phone C,Chainda South Phone C,03-399-0330.wav,Chainda South Phone C/Chainda South Phone C/03-399-0330.wav,192000.0,2.0,41.12,Chai,0,0.0

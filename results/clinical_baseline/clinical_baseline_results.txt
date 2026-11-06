@@ -1,0 +1,30 @@
+Clinical Baseline — Logistic Regression
+============================================================
+
+PRIMARY: 317 audio patients, 10 features (excl. haemoptysis)
+  Features: age, bmi, fever, weightloss, ngtsweats, prev_tb, sex, hiv_status, coughdur, tobacco_use
+  Patients evaluated: 317 (TB+ 60, TB- 257)
+  Pooled OOF AUC = 0.7719  [95% CI: 0.7036 - 0.8381]
+  Per-fold AUCs: [0.7244, 0.6362, 0.866, 0.8676, 0.8219]
+  Mean +/- std:  0.7832 +/- 0.0901
+
+SENSITIVITY: audio patients, 11 features (incl. haemoptysis)
+  Features: age, bmi, fever, weightloss, ngtsweats, prev_tb, sex, hiv_status, coughdur, tobacco_use, haemoptysis
+  Patients evaluated: 281 (TB+ 57, TB- 224)
+  Pooled OOF AUC = 0.7892  [95% CI: 0.7158 - 0.8544]
+  Per-fold AUCs: [0.7665, 0.6549, 0.8481, 0.9131, 0.8374]
+  Mean +/- std:  0.8040 +/- 0.0879
+
+SECONDARY: all 1,621 patients, 10 features (excl. haemoptysis)
+  Features: age, bmi, fever, weightloss, ngtsweats, prev_tb, sex, hiv_status, coughdur, tobacco_use
+  Patients evaluated: 1616 (TB+ 205, TB- 1411)
+  Pooled OOF AUC = 0.8045  [95% CI: 0.7727 - 0.8359]
+  Per-fold AUCs: [0.8253, 0.7631, 0.7977, 0.8169, 0.8316]
+  Mean +/- std:  0.8069 +/- 0.0247
+
+SECONDARY: all patients, 11 features (incl. haemoptysis)
+  Features: age, bmi, fever, weightloss, ngtsweats, prev_tb, sex, hiv_status, coughdur, tobacco_use, haemoptysis
+  Patients evaluated: 1385 (TB+ 198, TB- 1187)
+  Pooled OOF AUC = 0.7862  [95% CI: 0.7471 - 0.8207]
+  Per-fold AUCs: [0.8044, 0.7374, 0.7737, 0.8092, 0.8136]
+  Mean +/- std:  0.7877 +/- 0.0288
