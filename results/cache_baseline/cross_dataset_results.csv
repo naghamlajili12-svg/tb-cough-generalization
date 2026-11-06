@@ -1,0 +1,7 @@
+feature_set,train_dataset,test_dataset,n_train,n_test,n_features,roc_auc
+Xc,CODA,TBscreen,60,40,9,0.4758
+Xc,CODA,Zambia,60,40,9,0.5914
+Xc,TBscreen,CODA,40,60,9,0.3956
+Xc,TBscreen,Zambia,40,40,9,0.7473
+Xc,Zambia,CODA,40,60,9,0.6207
+Xc,Zambia,TBscreen,40,40,9,0.6724
