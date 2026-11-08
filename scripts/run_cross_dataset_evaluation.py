@@ -36,7 +36,37 @@ def load_dataset(name):
         "subs": data["subs"].astype(str),
     }
 
+def bootstrap_auc_ci(
+    y_true,
+    y_score,
+    n_bootstrap=2000,
+    confidence=0.95,
+    random_state=42,
+):
+    rng = np.random.default_rng(random_state)
+    auc_values = []
+    n_samples = len(y_true)
 
+    for _ in range(n_bootstrap):
+        indices = rng.integers(0, n_samples, n_samples)
+        sampled_y = y_true[indices]
+
+        if len(np.unique(sampled_y)) < 2:
+            continue
+
+        sampled_scores = y_score[indices]
+        auc_values.append(
+            roc_auc_score(sampled_y, sampled_scores)
+        )
+
+    if not auc_values:
+        return np.nan, np.nan
+
+    alpha = 1.0 - confidence
+    lower = np.quantile(auc_values, alpha / 2)
+    upper = np.quantile(auc_values, 1 - alpha / 2)
+
+    return float(lower), float(upper)
 datasets = {
     name: load_dataset(name)
     for name in DATASETS
@@ -95,7 +125,7 @@ for feature_key in FEATURE_SETS:
             model.fit(X_train, y_train)
             probabilities = model.predict_proba(X_test)[:, 1]
             auc = roc_auc_score(y_test, probabilities)
-
+            ci_lower, ci_upper = bootstrap_auc_ci(  y_test, probabilities,)
             result = {
                 "feature_set": feature_key,
                 "train_dataset": source_name,
@@ -104,6 +134,9 @@ for feature_key in FEATURE_SETS:
                 "n_test": len(y_test),
                 "n_features": X_train.shape[1],
                 "roc_auc": round(float(auc), 4),
+                "roc_auc": round(float(auc), 4),
+                "ci_lower": round(ci_lower, 4),
+                "ci_upper": round(ci_upper, 4),
             }
             results.append(result)
 
@@ -111,7 +144,8 @@ for feature_key in FEATURE_SETS:
                 f"{source_name:8s} -> {target_name:8s} | "
                 f"train={len(y_train):3d} | "
                 f"test={len(y_test):3d} | "
-                f"AUC={auc:.3f}"
+                f"AUC={auc:.3f} "
+                f"[95% CI: {ci_lower:.3f}-{ci_upper:.3f}]"
             )
 
 output_path = RESULTS_DIR / "cross_dataset_results.csv"
@@ -127,6 +161,8 @@ with output_path.open("w", newline="", encoding="utf-8") as csv_file:
             "n_test",
             "n_features",
             "roc_auc",
+            "ci_lower",
+            "ci_upper",
         ],
     )
     writer.writeheader()
