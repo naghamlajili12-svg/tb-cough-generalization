@@ -6,3 +6,6 @@ oryx-build-commands.txt
 
 # Private raw datasets
 data/raw/
+
+# Private derived audio
+data/interim/
