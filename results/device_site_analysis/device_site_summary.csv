@@ -1,0 +1,9 @@
+dataset,subgroup,location,device,n_total,n_tb_positive,n_tb_negative,tb_prevalence
+CODA,Madagascar_Phone C,Madagascar,Phone C,20,6,14,0.3
+CODA,Tanzania_Phone B,Tanzania,Phone B,20,8,12,0.4
+CODA,Vietnam_Phone A,Vietnam,Phone A,20,2,18,0.1
+TBscreen,Kenya_Phone B,Kenya,Phone B,40,13,27,0.325
+Zambia,Zambia_Audio-Recorder,Zambia,Audio-Recorder,8,2,6,0.25
+Zambia,Zambia_Phone A,Zambia,Phone A,8,2,6,0.25
+Zambia,Zambia_Phone B,Zambia,Phone B,15,1,14,0.06666666666666667
+Zambia,Zambia_Phone C,Zambia,Phone C,9,4,5,0.4444444444444444
