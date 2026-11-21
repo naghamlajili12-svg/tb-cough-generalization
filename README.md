@@ -195,3 +195,57 @@ python scripts/06b_zambia_device_analysis.py
 ## License
 
 Released under the MIT License. See [`LICENSE`](LICENSE).
+
+
+---
+
+## Zambia raw-audio smoke test
+
+We validated the complete pipeline using an original Zambia/CIDRZ raw-audio sample.
+
+### Experimental subset
+
+- 10 anonymized patients from Chawama.
+- 5 TB-positive and 5 TB-negative patients.
+- One recording device: Audio Recorder.
+- 59 detected cough clips, with 5 to 8 clips per patient.
+- Raw recordings: stereo WAV at 44.1 kHz.
+- Extracted cough clips: mono WAV at 16 kHz.
+
+### Processing pipeline
+
+```text
+Raw audio -> CLAP cough detection -> segmentation -> feature extraction -> patient-level evaluation
+```
+
+Two feature representations were extracted:
+
+- CLAP embeddings: 1,024 features.
+- Time-frequency features: 136 features.
+
+The cough-level samples were aggregated by patient to prevent clips from the same patient from appearing in both training and testing sets.
+
+### Patient-level results
+
+| Feature representation | Patients | TB-negative | TB-positive | ROC-AUC |
+|---|---:|---:|---:|---:|
+| CLAP | 10 | 5 | 5 | 0.640 |
+| Time-frequency | 10 | 5 | 5 | 0.720 |
+
+The evaluation uses a Random Forest with 500 trees, balanced class weights, and five-fold stratified cross-validation.
+
+The evaluation script is located at:
+
+```text
+scripts/evaluate_zambia_raw_sample.py
+```
+
+The generated summaries are located under:
+
+```text
+results/zambia_raw_sample/
+```
+
+### Important limitation
+
+This is a technical smoke test on only 10 patients. The ROC-AUC values must not be interpreted as reliable estimates of clinical performance. Raw audio, segmented cough clips, metadata, and private derived feature arrays are excluded from GitHub.
