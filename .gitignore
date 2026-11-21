@@ -3,3 +3,13 @@ venv/
 __pycache__/
 *.pyc
 oryx-build-commands.txt
+
+# Private raw datasets
+data/raw/
+
+# Private derived audio
+data/interim/
+
+# Private raw-derived feature arrays
+data/processed/features/clap/zambia_AR_*.npy
+data/processed/features/timefreq/zambia_AR_*.npy
