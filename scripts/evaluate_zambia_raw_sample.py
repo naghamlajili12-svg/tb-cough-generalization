@@ -200,6 +200,6 @@ print(f"Saved predictions: {predictions_path}")
 
 print(
     "\nImportant limitation: this is a technical smoke test "
-    "using only 10 patients. Results must not be interpreted "
+    "using a small patient cohort. Results must not be interpreted "
     "as reliable estimates of clinical performance."
 )
