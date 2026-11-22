@@ -205,10 +205,10 @@ We validated the complete pipeline using an original Zambia/CIDRZ raw-audio samp
 
 ### Experimental subset
 
-- 10 anonymized patients from Chawama.
-- 5 TB-positive and 5 TB-negative patients.
+- 14 anonymized patients from Chawama.
+- 7 TB-positive and 7 TB-negative patients.
 - One recording device: Audio Recorder.
-- 59 detected cough clips, with 5 to 8 clips per patient.
+- 79 detected cough clips, with 2 to 8 clips per patient.
 - Raw recordings: stereo WAV at 44.1 kHz.
 - Extracted cough clips: mono WAV at 16 kHz.
 
@@ -229,8 +229,8 @@ The cough-level samples were aggregated by patient to prevent clips from the sam
 
 | Feature representation | Patients | TB-negative | TB-positive | ROC-AUC |
 |---|---:|---:|---:|---:|
-| CLAP | 10 | 5 | 5 | 0.640 |
-| Time-frequency | 10 | 5 | 5 | 0.720 |
+| CLAP | 14 | 7 | 7 | 0.306 |
+| Time-frequency | 14 | 7 | 7 | 0.714 |
 
 The evaluation uses a Random Forest with 500 trees, balanced class weights, and five-fold stratified cross-validation.
 
@@ -248,4 +248,4 @@ results/zambia_raw_sample/
 
 ### Important limitation
 
-This is a technical smoke test on only 10 patients. The ROC-AUC values must not be interpreted as reliable estimates of clinical performance. Raw audio, segmented cough clips, metadata, and private derived feature arrays are excluded from GitHub.
+This is a technical smoke test on only 14 patients. The ROC-AUC values must not be interpreted as reliable estimates of clinical performance. Raw audio, segmented cough clips, metadata, and private derived feature arrays are excluded from GitHub.
